@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  InterviewerMail: MyString
+  StudentMail: MyString
+  start_time: 2020-09-04 12:54:52
+  end_time: 2020-09-04 12:54:52
+
+two:
+  InterviewerMail: MyString
+  StudentMail: MyString
+  start_time: 2020-09-04 12:54:52
+  end_time: 2020-09-04 12:54:52
