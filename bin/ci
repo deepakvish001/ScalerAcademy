@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+export RAILS_ENV=test
+
+bundle check
+yarn check --integrity
+bin/rails db:prepare
+bin/rails test
