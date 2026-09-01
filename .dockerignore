@@ -1,0 +1,10 @@
+.git
+.github
+.env
+log/*
+tmp/*
+node_modules
+coverage
+storage/*
+test
+vendor/bundle
