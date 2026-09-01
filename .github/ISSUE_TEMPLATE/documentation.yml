@@ -1,0 +1,21 @@
+name: Documentation improvement
+description: Report missing, inaccurate, or confusing guidance
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Document or section
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is unclear or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
