@@ -1,4 +1,21 @@
-# Interview Scheduler
+<div align="center">
+
+<h1>📅 InterviewFlow</h1>
+
+<p><strong>A Rails application for coordinating interview slots between students and interviewers.</strong></p>
+
+![Ruby 2.7](https://img.shields.io/badge/Ruby_2.7-20232A?style=for-the-badge) ![Rails 6](https://img.shields.io/badge/Rails_6-20232A?style=for-the-badge) ![SQLite](https://img.shields.io/badge/SQLite-20232A?style=for-the-badge) ![Minitest](https://img.shields.io/badge/Minitest-20232A?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-20232A?style=for-the-badge)
+
+<p>
+  <a href="#features">Features</a> •
+  <a href="#technology-stack">Technology</a> •
+  <a href="#local-setup">Setup</a> •
+  <a href="#contributing">Contributing</a>
+</p>
+
+</div>
+
+---
 
 A focused Ruby on Rails application for coordinating interviews between students and interviewers. It provides a simple workflow to create, review, update, and cancel interview slots while validating participant email addresses and schedule boundaries.
 
@@ -51,8 +68,8 @@ sqlite3 --version
 1. Clone the repository.
 
    ```bash
-   git clone https://github.com/deepakvish001/ScalerAcademy.git
-   cd ScalerAcademy
+   git clone https://github.com/deepakvish001/ScalerAcademy.git InterviewFlow
+   cd InterviewFlow
    ```
 
 2. Install Ruby and JavaScript dependencies.
